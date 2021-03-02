@@ -462,3 +462,27 @@ input[type="submit"] {
         width: 100%;
     }
 }
+
+/* 追加 */
+
+body{
+    background: #daeffd;
+  }
+  .img_wrap{
+    /* width: 250px; */
+    /* height: 250px; */
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .img_wrap img{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 50%;
+    transition-duration: 0.3s;
+  }
+  .img_wrap img:hover{
+    border-radius: 0;
+    transition-duration: 0.3s;
+  }
+  
+  
